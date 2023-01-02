@@ -3,21 +3,29 @@
     <head>
         <title>Diario Di Bordo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel ="stylesheet" href="\css\index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;700&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;700&display=swap');
+        </style>
+        <link rel ="stylesheet" href="..\css\index.css">
+        <meta charset="UTF-8">
     </head>
     <body>
         <div class="container">
             <div id="title">
                 <h1>Diario Di Bordo</h1>
             </div>
-            <div id="content">
-                <div>
-                     <p>inserisci le tue credenziali per accedere</p>
+            <div>
+                <div class="content">
+                    <p>Tieni traccia delle tue attività!</p>
                 </div>
-                <div> 
-                    <p>non le hai?</p><a href="*">Clicca qui</a>
+                <div class="content">
+                    <p>Inserisci le tue credenziali per iniziare</p>
                 </div>
-                <div>
+                <div class="content">
                     <form method="post">
                         <div>
                             <input type="text" name="username" placeholder="Username">
@@ -25,6 +33,9 @@
                             <button type="submit"><a href="*">Accedi</a></button>
                         </div>
                     </form>
+                </div>
+                <div id="inline"> 
+                    <p id="space">non le hai?</p><a href="*">Clicca qui</a>
                 </div>
             </div>
         </div>
